@@ -12,33 +12,21 @@ def calc(x):
     return str(math.log(abs(12*math.sin(int(x)))))
 
 
-
-
-
 # задание 2.4 настройка ожиданий 8 из 9 шагов
 # browser = webdriver.Chrome()
 # browser.get("http://suninjuly.github.io/explicit_wait2.html")
-#
 # number100 = WebDriverWait(browser, 15).until(
 #         EC.text_to_be_present_in_element((By.ID, "price"), '100')
 #     )
 # button = browser.find_element_by_css_selector("button.btn")
 # button.click()
 # browser.implicitly_wait(2)
-#
 # x = browser.find_element_by_id("input_value")
 # x = calc(int(x.text))
 # input1 = browser.find_element_by_id("answer")
 # input1.send_keys(x)
 # button = browser.find_element_by_id("solve")
 # button.click()
-
-
-
-
-
-
-
 
 
 # задание 13
@@ -55,11 +43,6 @@ def calc(x):
 # input1.send_keys(x)
 # button = browser.find_element_by_css_selector("button.btn")
 # button.click()
-
-
-
-
-
 
 
 # задание 12
@@ -79,14 +62,10 @@ def calc(x):
 # submit_button.click()
 
 
-
-
-
-
 # задание 11
 # current_dir = os.path.abspath(os.path.dirname(__file__))
 # file_path = os.path.join(current_dir, 'file.txt')
-#
+
 # browser = webdriver.Chrome()
 # browser.get("http://suninjuly.github.io/file_input.html")
 # input1 = browser.find_element_by_name('firstname')
@@ -99,18 +78,6 @@ def calc(x):
 # file_input.send_keys(file_path)
 # button = browser.find_element_by_tag_name("button")
 # button.click()
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # задание 10
@@ -156,10 +123,6 @@ def calc(x):
 #      browser.quit()
 
 
-
-
-
-
 # # задание 8
 # def calc(x):
 #   return str(math.log(abs(12*math.sin(int(x)))))
@@ -179,7 +142,6 @@ def calc(x):
 #     radion_element.click()
 #     button = browser.find_element_by_css_selector("button.btn")
 #     button.click()
-#
 #     print(x)
 #
 # finally:
@@ -187,14 +149,6 @@ def calc(x):
 #      time.sleep(10)
 #      # закрываем браузер после всех манипуляций
 #      browser.quit()
-
-
-
-
-
-
-
-
 
 
 # задание 7
@@ -224,8 +178,6 @@ def calc(x):
 #      browser.quit()
 
 
-
-
 # # задание 6
 # try:
 #     link = "http://suninjuly.github.io/registration1.html"
@@ -235,14 +187,11 @@ def calc(x):
 #     # Ваш код, который заполняет обязательные поля
 #     input1 = browser.find_element_by_xpath("//input[@placeholder='.name']")
 #     input1.send_keys("Ivan")
-#
-#
 #     input2 = browser.find_element_by_xpath("//input[@placeholder='Input your last name']")
 #     input2.send_keys("Ivanov")
-#
 #     input3 = browser.find_element_by_xpath("//input[@placeholder='Input your email']")
 #     input3.send_keys("Ivanov")
-#
+
 #     # Отправляем заполненную форму
 #     button = browser.find_element_by_css_selector("button.btn")
 #     button.click()
@@ -266,23 +215,15 @@ def calc(x):
 #     browser.quit()
 
 
-
-
-
-
-
-
 # # задание 5
 # try:
 #     link = "http://suninjuly.github.io/registration1.html"
 #     browser = webdriver.Chrome()
 #     browser.get(link)
-#
 #     # Ваш код, который заполняет обязательные поля
 #     input1 = browser.find_element_by_xpath("//input[@class='form-control first' and @placeholder='Input your first name']")
 #     input1.send_keys("Ivan")
-#
-#
+
 #     input2 = browser.find_element_by_xpath("//input[@class='form-control second' and @placeholder='Input your last name']")
 #     input2.send_keys("Ivanov")
 #
@@ -312,17 +253,6 @@ def calc(x):
 #     browser.quit()
 
 
-
-
-
-
-
-
-
-
-
-
-
 # задание 4
 # link = "http://suninjuly.github.io/find_xpath_form"
 #
@@ -348,11 +278,6 @@ def calc(x):
 #     browser.quit()
 
 
-
-
-
-
-
 # задание 3
 # try:
 #     browser = webdriver.Chrome()
@@ -370,10 +295,6 @@ def calc(x):
 #     time.sleep(30)
 #     # закрываем браузер после всех манипуляций
 #     browser.quit()
-
-
-
-
 
 
 # задание2
@@ -404,7 +325,8 @@ def calc(x):
 #     # закрываем браузер после всех манипуляций
 #     browser.quit()
 
-# задание
+
+# задание 1
 # link = "http://suninjuly.github.io/simple_form_find_task.html"
 #
 # try:
